@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Batara Banyu Tata Udara | MEP Contractor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <div class="logo-box">
+                    <span class="logo-b">B</span>
+                </div>
+                <div class="logo-name">
+                    <span class="top">BATARA BANYU</span>
+                    <span class="bottom">TATA UDARA</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact" class="btn-cta-small">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Solusi Profesional <br><span>Mekanikal & Elektrikal</span></h1>
+                <p>Membangun infrastruktur yang andal dengan presisi engineering tinggi untuk kenyamanan dan keamanan masa depan.</p>
+                <a href="#services" class="btn-cta">Pelajari Layanan</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-showcase container">
+        <div class="engineer-display">
+            http://googleusercontent.com/image_generation_content/0
+            <div class="image-caption">
+                <p>Tim ahli kami memastikan setiap detail teknis terpasang sesuai standar internasional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Bidang Keahlian Kami</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">⚙️</div>
+                    <h3>Mekanikal</h3>
+                    <p>Fokus pada sistem tata udara (HVAC), pemipaan (plumbing), Kami memastikan sirkulasi udara dan fluida dalam gedung berjalan efisien.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">⚡</div>
+                    <h3>Elektrikal</h3>
+                    <p>Instalasi tenaga listrik, panel distribusi, pencahayaan, serta sistem arus lemah seperti alarm kebakaran, CCTV, dan jaringan telekomunikasi gedung.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📐</div>
+                    <h3>Engineering</h3>
+                    <p>Proses perencanaan, desain teknis, audit energi, dan pengawasan proyek. Kami mengubah visi arsitektur menjadi sistem yang berfungsi secara teknis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PT Batara Banyu Tata Udara. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

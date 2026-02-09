@@ -1,0 +1,57 @@
+:root {
+    --primary: #2c3e50;
+    --accent: #e67e22;
+    --light: #f4f7f6;
+    --dark: #1a252f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body { background-color: var(--light); color: var(--dark); }
+.container { max-width: 1100px; margin: auto; padding: 0 20px; }
+
+/* --- CSS LOGO --- */
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo-box {
+    background: var(--primary);
+    width: 45px; height: 45px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 8px; border-bottom: 4px solid var(--accent);
+}
+.logo-b { color: white; font-weight: bold; font-size: 24px; font-family: 'Montserrat'; }
+.logo-name { display: flex; flex-direction: column; line-height: 1; }
+.logo-name .top { font-weight: 700; color: var(--primary); font-size: 1.1rem; }
+.logo-name .bottom { font-size: 0.8rem; color: var(--accent); letter-spacing: 2px; }
+
+/* --- Header & Hero --- */
+header { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+.nav-menu { display: flex; list-style: none; gap: 20px; }
+.nav-menu a { text-decoration: none; color: var(--primary); font-weight: 600; }
+
+.hero {
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), 
+                url('https://images.unsplash.com/photo-1504307651254-35682f94a1d8?q=80&w=2070');
+    background-size: cover; height: 70vh; display: flex; align-items: center; color: white;
+}
+.hero-text h1 { font-size: 3rem; margin-bottom: 15px; }
+.hero-text span { color: var(--accent); }
+.btn-cta { background: var(--accent); color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+
+/* --- Image & Services --- */
+.engineer-display { margin-top: -50px; position: relative; border-radius: 15px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.2); }
+.engineer-display img { width: 100%; display: block; }
+.image-caption { background: white; padding: 20px; text-align: center; border-bottom: 5px solid var(--accent); }
+
+.services { padding: 80px 0; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+.card { background: white; padding: 40px; border-radius: 10px; transition: 0.3s; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+.card:hover { transform: translateY(-10px); }
+.card h3 { margin: 15px 0; color: var(--primary); }
+
+footer { background: var(--dark); color: white; text-align: center; padding: 30px; margin-top: 50px; }
